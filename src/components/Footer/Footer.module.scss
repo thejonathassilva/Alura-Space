@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  position:fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__images {
+    padding: 16px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & p {
+    padding: 16px;
+  }
+}
