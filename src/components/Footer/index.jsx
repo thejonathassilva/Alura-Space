@@ -1,7 +1,7 @@
 import styles from './Footer.module.scss';
-import facebookLogo from '../../assets/facebook.svg';
-import twitterLogo from '../../assets/twitter.svg';
-import instagramLogo from '../../assets/instagram.svg';
+import facebookLogo from 'assets/facebook.svg';
+import twitterLogo from 'assets/twitter.svg';
+import instagramLogo from 'assets/instagram.svg';
 
 export default function Footer () {
   return (

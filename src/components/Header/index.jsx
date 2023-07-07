@@ -1,6 +1,6 @@
 import styles from './Header.module.scss'
-import logo from '../../assets/logo.png'
-import search from '../../assets/search.png'
+import logo from 'assets/logo.png'
+import search from 'assets/search.png'
 
 export default function Header() {
   return (
