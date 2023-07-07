@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Popular.module.scss'
 import popularPhotos from './popular-photos.json'
 import OnePopular from './OnePopular'
+import Button from 'components/Button'
 
 export default function Popular() {
   return (
@@ -17,7 +18,9 @@ export default function Popular() {
           )
         })}
       </ul>
-      <button>Ver mais fotos</button>
+      <Button
+        context="Ver mais opções"
+      />
     </aside>
   )
 }
